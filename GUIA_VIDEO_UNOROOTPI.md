@@ -2,6 +2,51 @@
 
 > Fase 1: investigación + guía de producción. La fase pesada (render, montaje, Opus) arranca cuando se aprueben las decisiones de la sección 9.
 
+## v2 — Cambios tras recibir el trabajo escrito y el prototipo (5 nov)
+
+**Lo que se resolvió**
+- **Reto asignado: Territorio Sostenible.** Proyecto: **PITB Antioquia** (Plataforma de Inteligencia Territorial y Biodiversidad). Equipo: Salomé Mariaca Sánchez, Daniela Estefanía Posada Hernández, Juan Sebastián Martínez Galeano, Maria Estefany Serna Guerra.
+- **Prototipo real ya existe** ([`Mogollo7/PITB-Antioquia`](https://github.com/Mogollo7/PITB-Antioquia), sitio estático con Leaflet; vistas `#inicio`, `#identificacion`, `#observacion/<id>`, `#tablero`, `#registros`). **Se descarta hacer mockups en Figma/Canva (§4): se graba el prototipo real.** Lo clonamos y verificamos que corre a 1920×1080; el 5 nov quedaron capturas de prueba de *Registros de Campo*.
+- **Velocidad de voz:** el guion es solo lo que se dice y pueden hablar más rápido. A ~3,0 pal/s los 391 palabras duran ~2:10 → **no se recorta nada**; el video queda en **~2:45–2:55** con los gráficos. (La tabla de §2 con 2,6 pal/s queda como el peor caso.)
+- **Quién edita:** una sola persona hace el montaje; los cuatro solo graban su clip. (Confirmar, ver pendientes.)
+- **DaVinci Resolve gratuito.** Implicaciones: (1) **el MCP de Resolve necesita Studio** para scripting externo; en gratuita solo el *bridge* interno, frágil → el plan base es **montaje manual guiado**: yo genero timeline importable (FCPXML/EDL), SRT de subtítulos, lista de marcadores y receta paso a paso; el MCP es opcional si el bridge funciona. (2) El **isologo se diseña en la pestaña Fusion** (incluida en la gratuita). (3) Exportar H.264 a 1080p30 en Windows/macOS; en Linux la gratuita no exporta H.264/AAC → exportar DNxHR y convertir con FFmpeg. (4) Para las capas con transparencia de Remotion, usar **secuencia PNG** (lo más seguro en la gratuita) o ProRes 4444 en Windows/macOS.
+
+**Isologo (Fusion, buenas prácticas)** — partir de la identidad que ya tiene el sitio, no inventar otra:
+- Símbolo: hoja del sitio (`#i-leaf`) + elemento de "dato" (punto/pin de localización en la nervadura). Tipografía **Fraunces 700** ("PITB") + **Manrope** para "Antioquia" en `--leaf-500`.
+- Paleta real del sitio: `--forest-900 #073821`, `--forest-800 #0d4a2c`, `--green-700 #2a6f49`, `--leaf-500 #6cae4c`, `--olive-400 #a5bc5b`, `--cream-100 #fffff6`, acento mapa `--map-accent #e8703a`, tinta `#122318`. **Esta paleta reemplaza la propuesta de §5.**
+- Buenas prácticas: legible a 16 px, versión 1 tinta y versión negativa sobre `forest-900`, zona de respeto = altura de la "P", contraste AA, exportar PNG 4× con alfa + SVG, animación de entrada de ≤1,5 s (trazo de la hoja → relleno → nombre).
+
+**ArtCraft** ([`storytold/artcraft`](https://github.com/storytold/artcraft); la web oficial `getartcraft.com` está bloqueada en mi red, la información viene de fuentes de terceros): app de escritorio open source (Windows/macOS) y estudio web (`app.getartcraft.com`) para imagen/video con IA, con composición 2D/3D, imagen→video, imagen→malla 3D, posado de personajes y cámara. Uso propuesto, **limitado y rotulado**:
+1. Planos de ambientación **sin especies reales identificables** (montaña antioqueña al amanecer, manos con celular, cámara trampa en el bosque) para S1/S2/D1.
+2. Transiciones/fondos abstractos (red de puntos sobre relieve) para D2/D3.
+3. **No** usarlo para mostrar fauna/flora como si fuera evidencia: el proyecto trata de datos reales. Las especies salen de las fotos iNaturalist ya incluidas en el prototipo, con su crédito.
+4. Todo plano generado lleva el rótulo "Imagen ilustrativa generada con IA" en pantalla o créditos. Revisar costos/créditos y licencias de los modelos antes de generar (no pude verificarlos).
+
+**Inconsistencias a corregir (importantes para el jurado)**
+| # | Hallazgo | Acción |
+|---|---|---|
+| 1 | El guion dice **"más de 21.000 especies"**; el texto escrito dice **"21.600"** | Unificar en **21.600** (en voz de Salomé P2 y en pantalla) o citar la fuente de ambos |
+| 2 | Cifras de ranas (56 especies, 62,9 %, 86,1 %, +24,9) **no están en el texto escrito** | Agregar una sección breve de metodología/resultados preliminares con fuente y fecha, o el jurado no podrá rastrearlas |
+| 3 | El texto dice que BioCLIP "**no incorpora coordenadas GPS**"; el guion dice que la ubicación "**reordena las candidatas** (+24,9)" | Aclarar en voz/pantalla y en Q&A: el modelo no usa GPS; el **reordenamiento por ubicación lo hace la plataforma** después |
+| 4 | El prototipo muestra **142 polígonos en conflicto, 72,4/100, 28 licencias, 99,2 %** | Son datos simulados: rotular **"Datos ilustrativos del prototipo"** en todas las tomas del tablero y las fichas |
+| 5 | Fotos con **CC BY-NC / CC BY-SA** (jaguar, guacamaya, perezoso…) | Mostrar crédito (ya aparece en la ficha) y listar autores en los créditos finales (`assets/species/_meta.json` los trae) |
+| 6 | La ficha del jaguar muestra categoría UICN "**EN**" | Verificar la categoría real (global y Colombia) antes de mostrarla |
+| 7 | Nombre: el texto/sitio dicen **PITB Antioquia**; yo había usado "unorootpi" | Usar **PITB Antioquia** en título y créditos salvo que "unorootpi" sea un nombre oficial |
+| 8 | "+17-20 % frente a otros modelos" (texto) | Citar solo si el paper lo respalda con esa cifra exacta; si no, quitarlo del texto escrito |
+
+**Plan de captura del prototipo (reemplaza §4)**
+- Playwright graba el sitio real a 1920×1080 (video webm + PNG) con guion de clics: subir foto → analizar → ficha del jaguar (top-3) → *Registros de Campo* (pasar un registro de *Pendiente* a *Validado*) → filtros por grupo.
+- El **mapa** del *Tablero* depende de Leaflet (CDN) y mosaicos OSM, que mi red bloquea: esa toma se graba **en el computador del equipo** (o se usa `assets/screenshots/tablero.jpg` como respaldo) y se anima encima con Remotion.
+- Los planos M1–M4 de §3 se mapean así: M1 `#identificacion`, M2 `#observacion/panthera-onca`, M3 `#tablero`, M4 `#registros`.
+
+**Pendientes reales (solo 4)**
+1. ¿Confirmas que una sola persona edita y los 4 solo graban?
+2. ¿Windows, macOS o Linux (Resolve y ArtCraft cambian)?
+3. ¿"unorootpi" es nombre oficial o usamos PITB Antioquia?
+4. ¿Aprobado grabar el prototipo real en vez de mockups?
+
+> Las secciones 0–11 de abajo siguen vigentes salvo lo que v2 reemplaza (§4 capturas, §5 paleta, §6.2 MCP, tabla de decisiones §9).
+
 ## 0. Contexto y plazos (¡urgente!)
 
 | Dato | Valor |
