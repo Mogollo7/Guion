@@ -57,3 +57,22 @@ npx remotion studio            # ver y ajustar en el navegador
 node scripts/render-promo.mjs  # volver a renderizar el promo, las láminas y el kit
 ```
 Para recapturar el prototipo en vista móvil: `node scripts/capture-mobile.mjs --online --url https://mogollo7.github.io/PITB-Antioquia/`.
+
+## Referencias de Mixkit (búsqueda "mockup")
+Mixkit no tiene plantillas de mockup para DaVinci. Las referencias útiles están en otros formatos:
+
+**Plantillas (After Effects / Premiere, solo como referencia de estilo):**
+- [Smartphone Promo #596](https://mixkit.co/free-after-effects-templates/smartphone-promo-596/): teléfono en 3D inclinado, círculo grande de color detrás, fondo plano saturado, titular de 1 palabra + 2 líneas de apoyo y el teléfono alternando de lado en cada escena.
+- [Phone Interface Text #602](https://mixkit.co/free-after-effects-templates/phone-interface-text-602/) y [Message Interface #543](https://mixkit.co/free-after-effects-templates/message-interface-543/): conversación que aparece burbuja por burbuja dentro de una pantalla de teléfono.
+- [Text Message Animation #605](https://mixkit.co/free-after-effects-templates/text-message-animation-605/), [Promo Logo Reveal #775](https://mixkit.co/free-after-effects-templates/promo-logo-reveal-775/) y [Phone Support Title #852](https://mixkit.co/free-premiere-pro-templates/phone-support-title-852/) (Premiere).
+
+**Video de stock con pantalla verde (sirve para mockups realistas con manos reales):**
+- Teléfono en la mano: [#9083](https://mixkit.co/free-stock-video/hands-hold-greenscreen-mobile-phone-9083/), [#9078](https://mixkit.co/free-stock-video/woman-holding-greenscreen-mobile-phone-taps-screen-9078/), [#45345](https://mixkit.co/free-stock-video/holding-a-phone-with-a-green-screen-and-swiping-45345/), [#42636](https://mixkit.co/free-stock-video/chroma-on-a-smartphone-with-a-green-screen-background-42636/) (pantalla azul).
+- Teléfono sobre el escritorio: [#100069](https://mixkit.co/free-stock-video/smartphone-with-a-green-screen-on-a-desk-setup-100069/), [#100080](https://mixkit.co/free-stock-video/the-hands-place-a-mobile-phone-featuring-a-green-screen-100080/), [#100084](https://mixkit.co/free-stock-video/a-mobile-phone-featuring-a-green-screen-sits-over-a-100084/) (con marcador de seguimiento), [#100086](https://mixkit.co/free-stock-video/the-hand-reaches-the-mobile-phone-featuring-a-green-screen-100086/).
+- Portátil: [#45343](https://mixkit.co/free-stock-video/laptop-on-a-table-with-a-green-screen-45343/) (frontal, fijo), [#46041](https://mixkit.co/free-stock-video/close-up-of-a-laptop-with-green-screen-sitting-on-46041/) (4 marcadores), [#45677](https://mixkit.co/free-stock-video/close-up-of-a-green-screen-on-a-laptop-45677/), [#46743](https://mixkit.co/free-stock-video/hands-typing-with-a-green-screen-laptop-46743/), [#100321](https://mixkit.co/free-stock-video/hands-typing-on-a-laptop-with-a-green-screen-display-100321/), [#48285](https://mixkit.co/free-stock-video/laptop-with-a-green-screen-slide-in-48285/).
+- Tableta: [#100088](https://mixkit.co/free-stock-video/a-sleek-tablet-featuring-a-green-screen-device-sits-on-100088/) (4 marcadores), [#13214](https://mixkit.co/free-stock-video/back-view-of-couple-holding-green-screen-tablet-13214/).
+
+En DaVinci gratuito, poner el prototipo en esas pantallas:
+1. Pon el clip verde en V2 y la grabación del prototipo debajo.
+2. En la página Fusion, añade un **Delta Keyer** para quitar el verde y un **Corner Pin** para encajar la pantalla en las 4 esquinas.
+3. Si la cámara se mueve, usa el **Tracker** con los marcadores.
