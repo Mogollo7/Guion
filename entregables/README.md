@@ -13,9 +13,10 @@ Todo lo necesario para grabar, montar en DaVinci Resolve gratuito (Windows) y pr
 ## Carpetas
 | Carpeta | Contenido |
 |---|---|
-| `laminas/` | 16 animaciones MP4 1080p30 (intro, 14 planos, outro), listas para la pista V2 |
+| `promo/` | **App Promo** (~49 s) estilo UI Motion Graphics con mockups, la mascota **Tremi** y tipografía cinética; láminas del promo para el bloque de María; Tremi con fondo transparente para DaVinci |
+| `laminas/` | 16 animaciones MP4 1080p30 en estilo sobrio de datos (intro, 14 planos, outro), listas para la pista V2 |
 | `graficos/` | PNG transparentes: tercios inferiores, etiqueta de capítulo + logo para planos a cámara, sello "datos ilustrativos" |
-| `animatic/` | Montaje de referencia completo (2:36) con música y subtítulos |
+| `animatic/` | Montaje de referencia completo (2:40) con música y subtítulos, ya con la intro de Tremi y el bloque del prototipo en estilo App Promo |
 | `subtitulos/` | SRT por integrante y SRT completo estimado |
 | `montaje/` | Mapa de montaje y marcadores (CSV) |
 | `logo/` | Isologo en SVG y PNG + reglas de uso |
@@ -26,7 +27,8 @@ Todo lo necesario para grabar, montar en DaVinci Resolve gratuito (Windows) y pr
 ## Decisiones de dirección
 - Nombre en pantalla: **PITB Antioquia**. Reto: **Territorio Sostenible**.
 - Guion: dos correcciones (21.600 especies; el reordenamiento por ubicación es un paso de la plataforma).
-- Prototipo: se muestra el **real** (capturas de `Mogollo7/PITB-Antioquia`), no maquetas. Todo dato simulado se rotula como ilustrativo.
+- Prototipo: se muestra el **real** (capturas de `Mogollo7/PITB-Antioquia`, vista móvil y escritorio) dentro de mockups de teléfono y portátil. Todo dato simulado se rotula como ilustrativo.
+- Dos estilos que conviven: **datos sobrios** para el problema, la propuesta y BioCLIP, y **App Promo con Tremi** para el prototipo y la intro (ver `promo/README.md`).
 - Se priorizó DaVinci gratuito con montaje manual guiado: el MCP de Resolve necesita Studio para funcionar bien.
 
 ## Re-renderizar (si cambian textos o cifras)
@@ -37,4 +39,5 @@ npx remotion studio                              # ver y editar en el navegador
 node scripts/capture-prototype.mjs --online --url https://mogollo7.github.io/PITB-Antioquia/   # recapturar el prototipo (requiere: npx playwright install chromium)
 python scripts/build-timeline.py                 # recalcula animatic, SRT y marcadores desde src/data/guion.json
 node scripts/render-all.mjs                      # todo, o: node scripts/render-all.mjs S2 J2
+node scripts/render-promo.mjs                    # App Promo, láminas del promo y kit de Tremi
 ```

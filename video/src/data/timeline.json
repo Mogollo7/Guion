@@ -1,17 +1,17 @@
 {
  "fps": 30,
- "total": 4692,
+ "total": 4797,
  "segments": [
   {
    "type": "intro",
    "from": 0,
-   "dur": 135
+   "dur": 240
   },
   {
    "type": "live",
    "speaker": "salome",
    "plano": "S1",
-   "from": 135,
+   "from": 240,
    "dur": 93,
    "lowerThird": true
   },
@@ -19,14 +19,14 @@
    "type": "plate",
    "id": "S1",
    "speaker": "salome",
-   "from": 228,
+   "from": 333,
    "dur": 123
   },
   {
    "type": "live",
    "speaker": "salome",
    "plano": "S2",
-   "from": 351,
+   "from": 456,
    "dur": 65,
    "lowerThird": false
   },
@@ -34,14 +34,14 @@
    "type": "plate",
    "id": "S2",
    "speaker": "salome",
-   "from": 416,
+   "from": 521,
    "dur": 203
   },
   {
    "type": "live",
    "speaker": "salome",
    "plano": "S3",
-   "from": 619,
+   "from": 724,
    "dur": 72,
    "lowerThird": false
   },
@@ -49,14 +49,14 @@
    "type": "plate",
    "id": "S3",
    "speaker": "salome",
-   "from": 691,
+   "from": 796,
    "dur": 227
   },
   {
    "type": "live",
    "speaker": "daniela",
    "plano": "D1",
-   "from": 918,
+   "from": 1023,
    "dur": 158,
    "lowerThird": true
   },
@@ -64,14 +64,14 @@
    "type": "plate",
    "id": "D1",
    "speaker": "daniela",
-   "from": 1076,
+   "from": 1181,
    "dur": 203
   },
   {
    "type": "live",
    "speaker": "daniela",
    "plano": "D2",
-   "from": 1279,
+   "from": 1384,
    "dur": 75,
    "lowerThird": false
   },
@@ -79,14 +79,14 @@
    "type": "plate",
    "id": "D2",
    "speaker": "daniela",
-   "from": 1354,
+   "from": 1459,
    "dur": 234
   },
   {
    "type": "live",
    "speaker": "daniela",
    "plano": "D3",
-   "from": 1588,
+   "from": 1693,
    "dur": 49,
    "lowerThird": false
   },
@@ -94,14 +94,14 @@
    "type": "plate",
    "id": "D3",
    "speaker": "daniela",
-   "from": 1637,
+   "from": 1742,
    "dur": 157
   },
   {
    "type": "live",
    "speaker": "juan",
    "plano": "J1",
-   "from": 1794,
+   "from": 1899,
    "dur": 205,
    "lowerThird": true
   },
@@ -109,14 +109,14 @@
    "type": "plate",
    "id": "J1",
    "speaker": "juan",
-   "from": 1999,
+   "from": 2104,
    "dur": 259
   },
   {
    "type": "live",
    "speaker": "juan",
    "plano": "J2",
-   "from": 2258,
+   "from": 2363,
    "dur": 90,
    "lowerThird": false
   },
@@ -124,14 +124,14 @@
    "type": "plate",
    "id": "J2",
    "speaker": "juan",
-   "from": 2348,
+   "from": 2453,
    "dur": 416
   },
   {
    "type": "live",
    "speaker": "juan",
    "plano": "J3",
-   "from": 2764,
+   "from": 2869,
    "dur": 90,
    "lowerThird": false
   },
@@ -139,14 +139,14 @@
    "type": "plate",
    "id": "J3",
    "speaker": "juan",
-   "from": 2854,
+   "from": 2959,
    "dur": 281
   },
   {
    "type": "live",
    "speaker": "maria",
    "plano": "M1",
-   "from": 3135,
+   "from": 3240,
    "dur": 48,
    "lowerThird": true
   },
@@ -154,14 +154,14 @@
    "type": "plate",
    "id": "M1",
    "speaker": "maria",
-   "from": 3183,
+   "from": 3288,
    "dur": 251
   },
   {
    "type": "live",
    "speaker": "maria",
    "plano": "M2",
-   "from": 3434,
+   "from": 3539,
    "dur": 36,
    "lowerThird": false
   },
@@ -169,14 +169,14 @@
    "type": "plate",
    "id": "M2",
    "speaker": "maria",
-   "from": 3470,
+   "from": 3575,
    "dur": 283
   },
   {
    "type": "live",
    "speaker": "maria",
    "plano": "M3",
-   "from": 3753,
+   "from": 3858,
    "dur": 36,
    "lowerThird": false
   },
@@ -184,14 +184,14 @@
    "type": "plate",
    "id": "M3",
    "speaker": "maria",
-   "from": 3789,
+   "from": 3894,
    "dur": 252
   },
   {
    "type": "live",
    "speaker": "maria",
    "plano": "M4",
-   "from": 4041,
+   "from": 4146,
    "dur": 36,
    "lowerThird": false
   },
@@ -199,14 +199,14 @@
    "type": "plate",
    "id": "M4",
    "speaker": "maria",
-   "from": 4077,
+   "from": 4182,
    "dur": 180
   },
   {
    "type": "live",
    "speaker": "maria",
    "plano": "M5",
-   "from": 4257,
+   "from": 4362,
    "dur": 36,
    "lowerThird": false
   },
@@ -214,404 +214,404 @@
    "type": "plate",
    "id": "M5",
    "speaker": "maria",
-   "from": 4293,
+   "from": 4398,
    "dur": 129
   },
   {
    "type": "outro",
-   "from": 4422,
+   "from": 4527,
    "dur": 270
   }
  ],
  "subtitles": [
   {
-   "from": 135,
-   "to": 205,
+   "from": 240,
+   "to": 310,
    "text": "¿Cómo puede Antioquia planificar su territorio para",
    "speaker": "salome",
    "plano": "S1"
   },
   {
-   "from": 207,
-   "to": 277,
+   "from": 312,
+   "to": 382,
    "text": "125 municipios si ni siquiera sabemos con",
    "speaker": "salome",
    "plano": "S1"
   },
   {
-   "from": 279,
-   "to": 339,
+   "from": 384,
+   "to": 444,
    "text": "precisión qué especies lo habitan hoy?",
    "speaker": "salome",
    "plano": "S1"
   },
   {
-   "from": 351,
-   "to": 422,
+   "from": 456,
+   "to": 527,
    "text": "Hablamos del departamento más biodiverso de Colombia,",
    "speaker": "salome",
    "plano": "S2"
   },
   {
-   "from": 424,
-   "to": 495,
+   "from": 529,
+   "to": 600,
    "text": "con más de 21.600 especies registradas, pero",
    "speaker": "salome",
    "plano": "S2"
   },
   {
-   "from": 497,
-   "to": 568,
+   "from": 602,
+   "to": 673,
    "text": "cuyo inventario depende de muestreos manuales que",
    "speaker": "salome",
    "plano": "S2"
   },
   {
-   "from": 570,
-   "to": 609,
+   "from": 675,
+   "to": 714,
    "text": "tardan años en actualizarse.",
    "speaker": "salome",
    "plano": "S2"
   },
   {
-   "from": 619,
-   "to": 689,
+   "from": 724,
+   "to": 794,
    "text": "Y cuando se actualiza, una especie ya",
    "speaker": "salome",
    "plano": "S3"
   },
   {
-   "from": 691,
-   "to": 761,
+   "from": 796,
+   "to": 866,
    "text": "desapareció, una invasión ya ocurrió o un",
    "speaker": "salome",
    "plano": "S3"
   },
   {
-   "from": 763,
-   "to": 833,
+   "from": 868,
+   "to": 938,
    "text": "patrón migratorio ya cambió. Sin una línea",
    "speaker": "salome",
    "plano": "S3"
   },
   {
-   "from": 835,
-   "to": 905,
+   "from": 940,
+   "to": 1010,
    "text": "base, el ordenamiento territorial siempre actuará tarde.",
    "speaker": "salome",
    "plano": "S3"
   },
   {
-   "from": 918,
-   "to": 988,
+   "from": 1023,
+   "to": 1093,
    "text": "Nuestra propuesta es una plataforma web que",
    "speaker": "daniela",
    "plano": "D1"
   },
   {
-   "from": 990,
-   "to": 1060,
+   "from": 1095,
+   "to": 1165,
    "text": "usa inteligencia artificial de visión por computador,",
    "speaker": "daniela",
    "plano": "D1"
   },
   {
-   "from": 1062,
-   "to": 1132,
+   "from": 1167,
+   "to": 1237,
    "text": "BioCLIP, para clasificar automáticamente fotos de fauna",
    "speaker": "daniela",
    "plano": "D1"
   },
   {
-   "from": 1134,
-   "to": 1204,
+   "from": 1239,
+   "to": 1309,
    "text": "y flora y construir un catálogo vivo,",
    "speaker": "daniela",
    "plano": "D1"
   },
   {
-   "from": 1206,
-   "to": 1266,
+   "from": 1311,
+   "to": 1371,
    "text": "actualizado y comparable en el tiempo.",
    "speaker": "daniela",
    "plano": "D1"
   },
   {
-   "from": 1279,
-   "to": 1360,
+   "from": 1384,
+   "to": 1465,
    "text": "El usuario sube una foto, BioCLIP identifica la",
    "speaker": "daniela",
    "plano": "D2"
   },
   {
-   "from": 1362,
-   "to": 1443,
+   "from": 1467,
+   "to": 1548,
    "text": "especie, el sistema ubica el registro en el",
    "speaker": "daniela",
    "plano": "D2"
   },
   {
-   "from": 1445,
-   "to": 1526,
+   "from": 1550,
+   "to": 1631,
    "text": "territorio exacto y se publica en el mapa",
    "speaker": "daniela",
    "plano": "D2"
   },
   {
-   "from": 1528,
-   "to": 1578,
+   "from": 1633,
+   "to": 1683,
    "text": "colectivo de biodiversidad de Antioquia.",
    "speaker": "daniela",
    "plano": "D2"
   },
   {
-   "from": 1588,
-   "to": 1659,
+   "from": 1693,
+   "to": 1764,
    "text": "Con esos datos se pueden detectar a",
    "speaker": "daniela",
    "plano": "D3"
   },
   {
-   "from": 1661,
-   "to": 1732,
+   "from": 1766,
+   "to": 1837,
    "text": "tiempo señales ecológicas clave: disminución de poblaciones,",
    "speaker": "daniela",
    "plano": "D3"
   },
   {
-   "from": 1734,
-   "to": 1784,
+   "from": 1839,
+   "to": 1889,
    "text": "cambios migratorios y apariciones inesperadas.",
    "speaker": "daniela",
    "plano": "D3"
   },
   {
-   "from": 1794,
-   "to": 1875,
+   "from": 1899,
+   "to": 1980,
    "text": "BioCLIP es un modelo de visión del Imageomics",
    "speaker": "juan",
    "plano": "J1"
   },
   {
-   "from": 1877,
-   "to": 1958,
+   "from": 1982,
+   "to": 2063,
    "text": "Institute de la Universidad Estatal de Ohio, premiado",
    "speaker": "juan",
    "plano": "J1"
   },
   {
-   "from": 1960,
-   "to": 2041,
+   "from": 2065,
+   "to": 2146,
    "text": "como Mejor Artículo Estudiantil en CVPR 2024. Se",
    "speaker": "juan",
    "plano": "J1"
   },
   {
-   "from": 2043,
-   "to": 2124,
+   "from": 2148,
+   "to": 2229,
    "text": "entrenó con más de diez millones de imágenes",
    "speaker": "juan",
    "plano": "J1"
   },
   {
-   "from": 2126,
-   "to": 2207,
+   "from": 2231,
+   "to": 2312,
    "text": "y 450.000 taxones, y reconoce especies con pocos",
    "speaker": "juan",
    "plano": "J1"
   },
   {
-   "from": 2209,
-   "to": 2248,
+   "from": 2314,
+   "to": 2353,
    "text": "o ningún ejemplo previo.",
    "speaker": "juan",
    "plano": "J1"
   },
   {
-   "from": 2258,
-   "to": 2339,
+   "from": 2363,
+   "to": 2444,
    "text": "Se probó con 56 especies de ranas de",
    "speaker": "juan",
    "plano": "J2"
   },
   {
-   "from": 2341,
-   "to": 2422,
+   "from": 2446,
+   "to": 2527,
    "text": "Colombia, una prueba exigente: acierta a la primera",
    "speaker": "juan",
    "plano": "J2"
   },
   {
-   "from": 2424,
-   "to": 2505,
+   "from": 2529,
+   "to": 2610,
    "text": "en el 62,9 % de las fotos y,",
    "speaker": "juan",
    "plano": "J2"
   },
   {
-   "from": 2507,
-   "to": 2588,
+   "from": 2612,
+   "to": 2693,
    "text": "si mostramos tres candidatas, en el 86,1 %.",
    "speaker": "juan",
    "plano": "J2"
   },
   {
-   "from": 2590,
-   "to": 2671,
+   "from": 2695,
+   "to": 2776,
    "text": "Y cuando la plataforma usa la ubicación para",
    "speaker": "juan",
    "plano": "J2"
   },
   {
-   "from": 2673,
-   "to": 2754,
+   "from": 2778,
+   "to": 2859,
    "text": "reordenar las candidatas, el acierto sube 24,9 puntos.",
    "speaker": "juan",
    "plano": "J2"
   },
   {
-   "from": 2764,
-   "to": 2834,
+   "from": 2869,
+   "to": 2939,
    "text": "Son resultados preliminares y solo con ranas.",
    "speaker": "juan",
    "plano": "J3"
   },
   {
-   "from": 2836,
-   "to": 2906,
+   "from": 2941,
+   "to": 3011,
    "text": "Por eso la IA propone y una",
    "speaker": "juan",
    "plano": "J3"
   },
   {
-   "from": 2908,
-   "to": 2978,
+   "from": 3013,
+   "to": 3083,
    "text": "persona revisa lo dudoso, el sistema puede",
    "speaker": "juan",
    "plano": "J3"
   },
   {
-   "from": 2980,
-   "to": 3050,
+   "from": 3085,
+   "to": 3155,
    "text": "responder “no concluyente”, y las coordenadas de",
    "speaker": "juan",
    "plano": "J3"
   },
   {
-   "from": 3052,
-   "to": 3122,
+   "from": 3157,
+   "to": 3227,
    "text": "especies amenazadas se ocultan o se generalizan.",
    "speaker": "juan",
    "plano": "J3"
   },
   {
-   "from": 3135,
-   "to": 3205,
+   "from": 3240,
+   "to": 3310,
    "text": "Así funcionaría la plataforma. El usuario arrastra",
    "speaker": "maria",
    "plano": "M1"
   },
   {
-   "from": 3207,
-   "to": 3277,
+   "from": 3312,
+   "to": 3382,
    "text": "una foto o la selecciona, y también",
    "speaker": "maria",
    "plano": "M1"
   },
   {
-   "from": 3279,
-   "to": 3349,
+   "from": 3384,
+   "to": 3454,
    "text": "puede ver observaciones de la comunidad filtradas",
    "speaker": "maria",
    "plano": "M1"
   },
   {
-   "from": 3351,
-   "to": 3421,
+   "from": 3456,
+   "to": 3526,
    "text": "por mamíferos, aves, anfibios, reptiles o flora.",
    "speaker": "maria",
    "plano": "M1"
   },
   {
-   "from": 3434,
-   "to": 3515,
+   "from": 3539,
+   "to": 3620,
    "text": "Cada observación se ve como una ficha: la",
    "speaker": "maria",
    "plano": "M2"
   },
   {
-   "from": 3517,
-   "to": 3598,
+   "from": 3622,
+   "to": 3703,
    "text": "foto con su autoría, la taxonomía completa, las",
    "speaker": "maria",
    "plano": "M2"
   },
   {
-   "from": 3600,
-   "to": 3681,
+   "from": 3705,
+   "to": 3786,
    "text": "tres mejores sugerencias con su porcentaje y las",
    "speaker": "maria",
    "plano": "M2"
   },
   {
-   "from": 3683,
-   "to": 3743,
+   "from": 3788,
+   "to": 3848,
    "text": "acciones posibles, como geolocalizar y publicar.",
    "speaker": "maria",
    "plano": "M2"
   },
   {
-   "from": 3753,
-   "to": 3823,
+   "from": 3858,
+   "to": 3928,
    "text": "En el Tablero Territorial, los registros aparecen",
    "speaker": "maria",
    "plano": "M3"
   },
   {
-   "from": 3825,
-   "to": 3895,
+   "from": 3930,
+   "to": 4000,
    "text": "sobre un mapa y se cruzan con",
    "speaker": "maria",
    "plano": "M3"
   },
   {
-   "from": 3897,
-   "to": 3967,
+   "from": 4002,
+   "to": 4072,
    "text": "las zonificaciones POT y EOT, con filtros",
    "speaker": "maria",
    "plano": "M3"
   },
   {
-   "from": 3969,
-   "to": 4029,
+   "from": 4074,
+   "to": 4134,
    "text": "por subregión y por grupo taxonómico.",
    "speaker": "maria",
    "plano": "M3"
   },
   {
-   "from": 4041,
-   "to": 4111,
+   "from": 4146,
+   "to": 4216,
    "text": "Y en Registros de Campo, investigadores y",
    "speaker": "maria",
    "plano": "M4"
   },
   {
-   "from": 4113,
-   "to": 4183,
+   "from": 4218,
+   "to": 4288,
    "text": "Corporaciones Autónomas Regionales validan las detecciones y",
    "speaker": "maria",
    "plano": "M4"
   },
   {
-   "from": 4185,
-   "to": 4245,
+   "from": 4290,
+   "to": 4350,
    "text": "auditan la calidad de los datos.",
    "speaker": "maria",
    "plano": "M4"
   },
   {
-   "from": 4257,
-   "to": 4338,
+   "from": 4362,
+   "to": 4443,
    "text": "Así, cada foto se convierte en un dato.",
    "speaker": "maria",
    "plano": "M5"

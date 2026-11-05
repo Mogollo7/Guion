@@ -22,7 +22,8 @@ Crea estos bins (clic derecho › *New Bin*):
 | Bin | Qué va |
 |---|---|
 | `01_CAMARA` | Los clips de los 4 (ya convertidos) |
-| `02_LAMINAS` | `laminas/01_…16_*.mp4` |
+| `02_LAMINAS` | `laminas/01_…16_*.mp4` y `promo/laminas_promo/*.mp4` |
+| `06_TREMI` | `promo/kit_tremi_alpha/*.mov` (con transparencia) |
 | `03_GRAFICOS` | `graficos/tercios/*.png`, `graficos/overlay-camara/*.png`, `graficos/BadgeIlustrativo.png` |
 | `04_AUDIO` | `audio/musica_SaschaEnde_HappyBeats_Vol1_CC-BY-4.0.mp3` |
 | `05_REFERENCIA` | `animatic/PITB_animatic_referencia.mp4` |
@@ -40,11 +41,12 @@ Crea estos bins (clic derecho › *New Bin*):
 | **A3** | Clics (vienen dentro de las láminas M1, M2, M4) |
 
 Pasos:
-1. Arrastra `01_P00-Intro.mp4` al inicio de V1 (4,5 s).
+1. Arrastra `promo/laminas_promo/00_Intro_Tremi_logo.mp4` al inicio de V1 (8 s; Tremi saluda + isologo). Alternativa corta: `laminas/01_P00-Intro.mp4`.
 2. Coloca los clips de cámara en orden **Salomé → Daniela → Juan → María**. En cada clip, con la cuchilla (`B`) corta la mejor toma de cada plano y borra el resto con *Ripple Delete* (`Shift+Supr`). Deja ~0,2 s de aire entre planos.
 3. Sigue `montaje/mapa_de_montaje.md`: para cada plano pon su lámina en **V2**, empezando cuando ya se le vio la cara a quien habla (1–3 s) y terminando al final de la frase. **Recorta la cola** de la lámina, nunca el inicio (ahí están las animaciones).
    - Como guía, pon el animatic en una pista V4 apagada (ojo de la pista) y míralo cuando dudes.
-   - Para María (prototipo) se ve a cámara solo ~1 s por plano. Opcional: muéstrala en miniatura sobre las láminas M1–M4 (clip de cámara en V3 › *Inspector › Transform*: Zoom 0,28, Position X ≈ 760, Y ≈ −380).
+   - Para María (prototipo) se usan las **láminas del App Promo** (`promo/laminas_promo/M1…M5`) y se la ve a cámara ~1 s por plano. Opcional: muéstrala en miniatura en una esquina (clip de cámara en V3 › *Inspector › Transform*: Zoom 0,26 y muévela a una esquina libre).
+   - Tremi con transparencia (`promo/kit_tremi_alpha`) se puede poner en V3 encima de cualquier plano. Si el borde se ve raro: *Clip Attributes › Alpha Mode › Straight*.
 4. Tercios inferiores: `LowerThird-salome.png` (etc.) en **V3**, en los primeros 3–4 s del **primer plano** de cada persona. Fundido de entrada y salida: arrastra los tiradores blancos de las esquinas del clip (~8 cuadros).
 5. Opcional: `LiveOverlay-<persona>.png` en V3 encima de todos los planos a cámara de esa persona (etiqueta de capítulo + logo).
 6. Al final: `16_P99-Outro.mp4` (equipo y créditos).

@@ -2,14 +2,18 @@ import React from 'react';
 import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame } from 'remotion';
 import timeline from '../data/timeline.json';
 import { F, C, clamp } from '../theme';
-import { Intro, LivePlaceholder, LowerThird, Outro } from './Brand';
+import { LivePlaceholder, LowerThird, Outro } from './Brand';
 import { S1, S2, S3 } from './Salome';
 import { D1, D2, D3 } from './Daniela';
 import { J1, J2, J3 } from './Juan';
 import { M1, M2, M3, M4, M5 } from './Maria';
 import { Speaker } from '../data/script';
+import { PromoIntro, PromoPlate } from '../promo/Promo';
 
-export const PLATE_MAP: Record<string, React.FC> = { S1, S2, S3, D1, D2, D3, J1, J2, J3, M1, M2, M3, M4, M5 };
+const promo = (scene: string): React.FC => () => <PromoPlate scene={scene} />;
+// María (prototipo) usa el estilo App Promo; las láminas sobrias M1–M5 quedan como alternativa
+export const PLATE_MAP: Record<string, React.FC> = { S1, S2, S3, D1, D2, D3, J1, J2, J3, M1: promo('upload'), M2: promo('ficha'), M3: promo('map'), M4: promo('validate'), M5: promo('outro') };
+export const PLATE_MAP_SOBRIO: Record<string, React.FC> = { M1, M2, M3, M4, M5 };
 
 const Subtitles: React.FC = () => {
   const f = useCurrentFrame();
@@ -49,7 +53,7 @@ export const Animatic: React.FC<{ subtitles?: boolean }> = ({ subtitles = true }
         if (s.type === 'intro')
           return (
             <Sequence key={key} from={s.from} durationInFrames={s.dur}>
-              <Intro />
+              <PromoIntro />
             </Sequence>
           );
         if (s.type === 'outro')

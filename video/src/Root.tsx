@@ -9,6 +9,8 @@ import { M1, M2, M3, M4, M5 } from './scenes/Maria';
 import { BadgeIllustrative, Intro, LiveOverlay, LogoSheet, LowerThird, Outro } from './scenes/Brand';
 import { Animatic } from './scenes/Animatic';
 import { Teaser } from './scenes/Teaser';
+import { TremiSheet } from './promo/TremiSheet';
+import { Promo, PROMO, PROMO_TOTAL, PromoIntro, PromoPlate, TremiClip } from './promo/Promo';
 import timeline from './data/timeline.json';
 import { Speaker } from './data/script';
 
@@ -46,6 +48,15 @@ export const RemotionRoot: React.FC = () => (
       <Composition key={p.id} id={p.id} component={gate(p.c)} durationInFrames={Math.round(p.sec * FPS)} fps={FPS} width={W} height={H} />
     ))}
     <Composition id="Animatic" component={gate(Animatic)} durationInFrames={timeline.total} fps={FPS} width={W} height={H} defaultProps={{ subtitles: true }} />
+    <Composition id="Promo" component={gate(Promo)} durationInFrames={PROMO_TOTAL} fps={FPS} width={W} height={H} defaultProps={{ music: true }} />
+    <Composition id="PromoIntro" component={gate(PromoIntro)} durationInFrames={240} fps={FPS} width={W} height={H} />
+    {PROMO.map((p) => (
+      <Composition key={p.id} id={`PromoPlate-${p.id}`} component={gate(PromoPlate)} durationInFrames={p.dur + 120} fps={FPS} width={W} height={H} defaultProps={{ scene: p.id }} />
+    ))}
+    {([['saluda', 'wave', 'grin', false], ['celebra', 'celebrate', 'open', true], ['senala-derecha', 'point', 'open', false], ['senala-izquierda', 'pointLeft', 'open', false], ['presenta', 'present', 'smile', false]] as const).map(([id, pose, mouth, jump]) => (
+      <Composition key={id} id={`Tremi-${id}`} component={gate(TremiClip)} durationInFrames={120} fps={FPS} width={1080} height={1080} defaultProps={{ pose, mouth, jump }} />
+    ))}
+    <Still id="TremiSheet" component={gate(TremiSheet)} width={1920} height={1080} />
     <Composition id="Teaser" component={gate(Teaser)} durationInFrames={615} fps={FPS} width={W} height={H} />
     {SPK.map((s) => (
       <Still key={`lt-${s}`} id={`LowerThird-${s}`} component={gate(LowerThird)} width={W} height={H} defaultProps={{ speaker: s }} />

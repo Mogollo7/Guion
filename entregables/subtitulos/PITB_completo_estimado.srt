@@ -1,224 +1,224 @@
 1
-00:00:04,500 --> 00:00:06,833
+00:00:08,000 --> 00:00:10,333
 ¿Cómo puede Antioquia planificar su territorio para
 
 2
-00:00:06,900 --> 00:00:09,233
+00:00:10,400 --> 00:00:12,733
 125 municipios si ni siquiera sabemos con
 
 3
-00:00:09,300 --> 00:00:11,300
+00:00:12,800 --> 00:00:14,800
 precisión qué especies lo habitan hoy?
 
 4
-00:00:11,700 --> 00:00:14,067
+00:00:15,200 --> 00:00:17,567
 Hablamos del departamento más biodiverso de Colombia,
 
 5
-00:00:14,133 --> 00:00:16,500
+00:00:17,633 --> 00:00:20,000
 con más de 21.600 especies registradas, pero
 
 6
-00:00:16,567 --> 00:00:18,933
+00:00:20,067 --> 00:00:22,433
 cuyo inventario depende de muestreos manuales que
 
 7
-00:00:19,000 --> 00:00:20,300
+00:00:22,500 --> 00:00:23,800
 tardan años en actualizarse.
 
 8
-00:00:20,633 --> 00:00:22,967
+00:00:24,133 --> 00:00:26,467
 Y cuando se actualiza, una especie ya
 
 9
-00:00:23,033 --> 00:00:25,367
+00:00:26,533 --> 00:00:28,867
 desapareció, una invasión ya ocurrió o un
 
 10
-00:00:25,433 --> 00:00:27,767
+00:00:28,933 --> 00:00:31,267
 patrón migratorio ya cambió. Sin una línea
 
 11
-00:00:27,833 --> 00:00:30,167
+00:00:31,333 --> 00:00:33,667
 base, el ordenamiento territorial siempre actuará tarde.
 
 12
-00:00:30,600 --> 00:00:32,933
+00:00:34,100 --> 00:00:36,433
 Nuestra propuesta es una plataforma web que
 
 13
-00:00:33,000 --> 00:00:35,333
+00:00:36,500 --> 00:00:38,833
 usa inteligencia artificial de visión por computador,
 
 14
-00:00:35,400 --> 00:00:37,733
+00:00:38,900 --> 00:00:41,233
 BioCLIP, para clasificar automáticamente fotos de fauna
 
 15
-00:00:37,800 --> 00:00:40,133
+00:00:41,300 --> 00:00:43,633
 y flora y construir un catálogo vivo,
 
 16
-00:00:40,200 --> 00:00:42,200
+00:00:43,700 --> 00:00:45,700
 actualizado y comparable en el tiempo.
 
 17
-00:00:42,633 --> 00:00:45,333
+00:00:46,133 --> 00:00:48,833
 El usuario sube una foto, BioCLIP identifica la
 
 18
-00:00:45,400 --> 00:00:48,100
+00:00:48,900 --> 00:00:51,600
 especie, el sistema ubica el registro en el
 
 19
-00:00:48,167 --> 00:00:50,867
+00:00:51,667 --> 00:00:54,367
 territorio exacto y se publica en el mapa
 
 20
-00:00:50,933 --> 00:00:52,600
+00:00:54,433 --> 00:00:56,100
 colectivo de biodiversidad de Antioquia.
 
 21
-00:00:52,933 --> 00:00:55,300
+00:00:56,433 --> 00:00:58,800
 Con esos datos se pueden detectar a
 
 22
-00:00:55,367 --> 00:00:57,733
+00:00:58,867 --> 00:01:01,233
 tiempo señales ecológicas clave: disminución de poblaciones,
 
 23
-00:00:57,800 --> 00:00:59,467
+00:01:01,300 --> 00:01:02,967
 cambios migratorios y apariciones inesperadas.
 
 24
-00:00:59,800 --> 00:01:02,500
+00:01:03,300 --> 00:01:06,000
 BioCLIP es un modelo de visión del Imageomics
 
 25
-00:01:02,567 --> 00:01:05,267
+00:01:06,067 --> 00:01:08,767
 Institute de la Universidad Estatal de Ohio, premiado
 
 26
-00:01:05,333 --> 00:01:08,033
+00:01:08,833 --> 00:01:11,533
 como Mejor Artículo Estudiantil en CVPR 2024. Se
 
 27
-00:01:08,100 --> 00:01:10,800
+00:01:11,600 --> 00:01:14,300
 entrenó con más de diez millones de imágenes
 
 28
-00:01:10,867 --> 00:01:13,567
+00:01:14,367 --> 00:01:17,067
 y 450.000 taxones, y reconoce especies con pocos
 
 29
-00:01:13,633 --> 00:01:14,933
+00:01:17,133 --> 00:01:18,433
 o ningún ejemplo previo.
 
 30
-00:01:15,267 --> 00:01:17,967
+00:01:18,767 --> 00:01:21,467
 Se probó con 56 especies de ranas de
 
 31
-00:01:18,033 --> 00:01:20,733
+00:01:21,533 --> 00:01:24,233
 Colombia, una prueba exigente: acierta a la primera
 
 32
-00:01:20,800 --> 00:01:23,500
+00:01:24,300 --> 00:01:27,000
 en el 62,9 % de las fotos y,
 
 33
-00:01:23,567 --> 00:01:26,267
+00:01:27,067 --> 00:01:29,767
 si mostramos tres candidatas, en el 86,1 %.
 
 34
-00:01:26,333 --> 00:01:29,033
+00:01:29,833 --> 00:01:32,533
 Y cuando la plataforma usa la ubicación para
 
 35
-00:01:29,100 --> 00:01:31,800
+00:01:32,600 --> 00:01:35,300
 reordenar las candidatas, el acierto sube 24,9 puntos.
 
 36
-00:01:32,133 --> 00:01:34,467
+00:01:35,633 --> 00:01:37,967
 Son resultados preliminares y solo con ranas.
 
 37
-00:01:34,533 --> 00:01:36,867
+00:01:38,033 --> 00:01:40,367
 Por eso la IA propone y una
 
 38
-00:01:36,933 --> 00:01:39,267
+00:01:40,433 --> 00:01:42,767
 persona revisa lo dudoso, el sistema puede
 
 39
-00:01:39,333 --> 00:01:41,667
+00:01:42,833 --> 00:01:45,167
 responder “no concluyente”, y las coordenadas de
 
 40
-00:01:41,733 --> 00:01:44,067
+00:01:45,233 --> 00:01:47,567
 especies amenazadas se ocultan o se generalizan.
 
 41
-00:01:44,500 --> 00:01:46,833
+00:01:48,000 --> 00:01:50,333
 Así funcionaría la plataforma. El usuario arrastra
 
 42
-00:01:46,900 --> 00:01:49,233
+00:01:50,400 --> 00:01:52,733
 una foto o la selecciona, y también
 
 43
-00:01:49,300 --> 00:01:51,633
+00:01:52,800 --> 00:01:55,133
 puede ver observaciones de la comunidad filtradas
 
 44
-00:01:51,700 --> 00:01:54,033
+00:01:55,200 --> 00:01:57,533
 por mamíferos, aves, anfibios, reptiles o flora.
 
 45
-00:01:54,467 --> 00:01:57,167
+00:01:57,967 --> 00:02:00,667
 Cada observación se ve como una ficha: la
 
 46
-00:01:57,233 --> 00:01:59,933
+00:02:00,733 --> 00:02:03,433
 foto con su autoría, la taxonomía completa, las
 
 47
-00:02:00,000 --> 00:02:02,700
+00:02:03,500 --> 00:02:06,200
 tres mejores sugerencias con su porcentaje y las
 
 48
-00:02:02,767 --> 00:02:04,767
+00:02:06,267 --> 00:02:08,267
 acciones posibles, como geolocalizar y publicar.
 
 49
-00:02:05,100 --> 00:02:07,433
+00:02:08,600 --> 00:02:10,933
 En el Tablero Territorial, los registros aparecen
 
 50
-00:02:07,500 --> 00:02:09,833
+00:02:11,000 --> 00:02:13,333
 sobre un mapa y se cruzan con
 
 51
-00:02:09,900 --> 00:02:12,233
+00:02:13,400 --> 00:02:15,733
 las zonificaciones POT y EOT, con filtros
 
 52
-00:02:12,300 --> 00:02:14,300
+00:02:15,800 --> 00:02:17,800
 por subregión y por grupo taxonómico.
 
 53
-00:02:14,700 --> 00:02:17,033
+00:02:18,200 --> 00:02:20,533
 Y en Registros de Campo, investigadores y
 
 54
-00:02:17,100 --> 00:02:19,433
+00:02:20,600 --> 00:02:22,933
 Corporaciones Autónomas Regionales validan las detecciones y
 
 55
-00:02:19,500 --> 00:02:21,500
+00:02:23,000 --> 00:02:25,000
 auditan la calidad de los datos.
 
 56
-00:02:21,900 --> 00:02:24,600
+00:02:25,400 --> 00:02:28,100
 Así, cada foto se convierte en un dato.
 

@@ -7,7 +7,7 @@ OUT = os.path.join(os.path.dirname(ROOT), 'entregables')
 FPS = 30
 g = json.load(open(os.path.join(ROOT, 'src/data/guion.json'), encoding='utf-8'))
 WPS = g['wordsPerSec']
-INTRO, OUTRO, PAUSE = 135, 270, 9
+INTRO, OUTRO, PAUSE = 240, 270, 9  # intro = Tremi saluda + logo (App Promo)
 PLATE_MIN = {'M5': 120}
 
 def chunks(text, maxw=8):
@@ -18,7 +18,7 @@ def chunks(text, maxw=8):
 
 segs, subs, markers = [], [], []
 t = 0
-segs.append({'type': 'intro', 'from': t, 'dur': INTRO}); markers.append((t, 'INTRO', 'Isologo')); t += INTRO
+segs.append({'type': 'intro', 'from': t, 'dur': INTRO}); markers.append((t, 'INTRO', 'Tremi saluda + isologo')); t += INTRO
 prev = None
 for p in g['planos']:
     words = len(p['text'].split())
