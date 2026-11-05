@@ -1,0 +1,1 @@
+Subes una foto de fauna o flora, BioCLIP identifica la especie y el registro aparece en el mapa territorial de Antioquia, listo para que una CAR lo valide. Así, cada foto se convierte en un dato. Prototipo: mogollo7.github.io/PITB-Antioquia #TerritorioSostenible #AgendaAntioquia2040

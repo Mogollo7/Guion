@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:02,700
+BioCLIP es un modelo de visión del Imageomics
+
+2
+00:00:02,767 --> 00:00:05,467
+Institute de la Universidad Estatal de Ohio, premiado
+
+3
+00:00:05,533 --> 00:00:08,233
+como Mejor Artículo Estudiantil en CVPR 2024. Se
+
+4
+00:00:08,300 --> 00:00:11,000
+entrenó con más de diez millones de imágenes
+
+5
+00:00:11,067 --> 00:00:13,767
+y 450.000 taxones, y reconoce especies con pocos
+
+6
+00:00:13,833 --> 00:00:15,133
+o ningún ejemplo previo.
+
+7
+00:00:15,200 --> 00:00:17,900
+Se probó con 56 especies de ranas de
+
+8
+00:00:17,967 --> 00:00:20,667
+Colombia, una prueba exigente: acierta a la primera
+
+9
+00:00:20,733 --> 00:00:23,433
+en el 62,9 % de las fotos y,
+
+10
+00:00:23,500 --> 00:00:26,200
+si mostramos tres candidatas, en el 86,1 %.
+
+11
+00:00:26,267 --> 00:00:28,967
+Y cuando la plataforma usa la ubicación para
+
+12
+00:00:29,033 --> 00:00:31,733
+reordenar las candidatas, el acierto sube 24,9 puntos.
+
+13
+00:00:31,800 --> 00:00:34,133
+Son resultados preliminares y solo con ranas.
+
+14
+00:00:34,200 --> 00:00:36,533
+Por eso la IA propone y una
+
+15
+00:00:36,600 --> 00:00:38,933
+persona revisa lo dudoso, el sistema puede
+
+16
+00:00:39,000 --> 00:00:41,333
+responder “no concluyente”, y las coordenadas de
+
+17
+00:00:41,400 --> 00:00:43,733
+especies amenazadas se ocultan o se generalizan.
+

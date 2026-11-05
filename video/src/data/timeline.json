@@ -1,0 +1,620 @@
+{
+ "fps": 30,
+ "total": 4692,
+ "segments": [
+  {
+   "type": "intro",
+   "from": 0,
+   "dur": 135
+  },
+  {
+   "type": "live",
+   "speaker": "salome",
+   "plano": "S1",
+   "from": 135,
+   "dur": 93,
+   "lowerThird": true
+  },
+  {
+   "type": "plate",
+   "id": "S1",
+   "speaker": "salome",
+   "from": 228,
+   "dur": 123
+  },
+  {
+   "type": "live",
+   "speaker": "salome",
+   "plano": "S2",
+   "from": 351,
+   "dur": 65,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "S2",
+   "speaker": "salome",
+   "from": 416,
+   "dur": 203
+  },
+  {
+   "type": "live",
+   "speaker": "salome",
+   "plano": "S3",
+   "from": 619,
+   "dur": 72,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "S3",
+   "speaker": "salome",
+   "from": 691,
+   "dur": 227
+  },
+  {
+   "type": "live",
+   "speaker": "daniela",
+   "plano": "D1",
+   "from": 918,
+   "dur": 158,
+   "lowerThird": true
+  },
+  {
+   "type": "plate",
+   "id": "D1",
+   "speaker": "daniela",
+   "from": 1076,
+   "dur": 203
+  },
+  {
+   "type": "live",
+   "speaker": "daniela",
+   "plano": "D2",
+   "from": 1279,
+   "dur": 75,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "D2",
+   "speaker": "daniela",
+   "from": 1354,
+   "dur": 234
+  },
+  {
+   "type": "live",
+   "speaker": "daniela",
+   "plano": "D3",
+   "from": 1588,
+   "dur": 49,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "D3",
+   "speaker": "daniela",
+   "from": 1637,
+   "dur": 157
+  },
+  {
+   "type": "live",
+   "speaker": "juan",
+   "plano": "J1",
+   "from": 1794,
+   "dur": 205,
+   "lowerThird": true
+  },
+  {
+   "type": "plate",
+   "id": "J1",
+   "speaker": "juan",
+   "from": 1999,
+   "dur": 259
+  },
+  {
+   "type": "live",
+   "speaker": "juan",
+   "plano": "J2",
+   "from": 2258,
+   "dur": 90,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "J2",
+   "speaker": "juan",
+   "from": 2348,
+   "dur": 416
+  },
+  {
+   "type": "live",
+   "speaker": "juan",
+   "plano": "J3",
+   "from": 2764,
+   "dur": 90,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "J3",
+   "speaker": "juan",
+   "from": 2854,
+   "dur": 281
+  },
+  {
+   "type": "live",
+   "speaker": "maria",
+   "plano": "M1",
+   "from": 3135,
+   "dur": 48,
+   "lowerThird": true
+  },
+  {
+   "type": "plate",
+   "id": "M1",
+   "speaker": "maria",
+   "from": 3183,
+   "dur": 251
+  },
+  {
+   "type": "live",
+   "speaker": "maria",
+   "plano": "M2",
+   "from": 3434,
+   "dur": 36,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "M2",
+   "speaker": "maria",
+   "from": 3470,
+   "dur": 283
+  },
+  {
+   "type": "live",
+   "speaker": "maria",
+   "plano": "M3",
+   "from": 3753,
+   "dur": 36,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "M3",
+   "speaker": "maria",
+   "from": 3789,
+   "dur": 252
+  },
+  {
+   "type": "live",
+   "speaker": "maria",
+   "plano": "M4",
+   "from": 4041,
+   "dur": 36,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "M4",
+   "speaker": "maria",
+   "from": 4077,
+   "dur": 180
+  },
+  {
+   "type": "live",
+   "speaker": "maria",
+   "plano": "M5",
+   "from": 4257,
+   "dur": 36,
+   "lowerThird": false
+  },
+  {
+   "type": "plate",
+   "id": "M5",
+   "speaker": "maria",
+   "from": 4293,
+   "dur": 129
+  },
+  {
+   "type": "outro",
+   "from": 4422,
+   "dur": 270
+  }
+ ],
+ "subtitles": [
+  {
+   "from": 135,
+   "to": 205,
+   "text": "¿Cómo puede Antioquia planificar su territorio para",
+   "speaker": "salome",
+   "plano": "S1"
+  },
+  {
+   "from": 207,
+   "to": 277,
+   "text": "125 municipios si ni siquiera sabemos con",
+   "speaker": "salome",
+   "plano": "S1"
+  },
+  {
+   "from": 279,
+   "to": 339,
+   "text": "precisión qué especies lo habitan hoy?",
+   "speaker": "salome",
+   "plano": "S1"
+  },
+  {
+   "from": 351,
+   "to": 422,
+   "text": "Hablamos del departamento más biodiverso de Colombia,",
+   "speaker": "salome",
+   "plano": "S2"
+  },
+  {
+   "from": 424,
+   "to": 495,
+   "text": "con más de 21.600 especies registradas, pero",
+   "speaker": "salome",
+   "plano": "S2"
+  },
+  {
+   "from": 497,
+   "to": 568,
+   "text": "cuyo inventario depende de muestreos manuales que",
+   "speaker": "salome",
+   "plano": "S2"
+  },
+  {
+   "from": 570,
+   "to": 609,
+   "text": "tardan años en actualizarse.",
+   "speaker": "salome",
+   "plano": "S2"
+  },
+  {
+   "from": 619,
+   "to": 689,
+   "text": "Y cuando se actualiza, una especie ya",
+   "speaker": "salome",
+   "plano": "S3"
+  },
+  {
+   "from": 691,
+   "to": 761,
+   "text": "desapareció, una invasión ya ocurrió o un",
+   "speaker": "salome",
+   "plano": "S3"
+  },
+  {
+   "from": 763,
+   "to": 833,
+   "text": "patrón migratorio ya cambió. Sin una línea",
+   "speaker": "salome",
+   "plano": "S3"
+  },
+  {
+   "from": 835,
+   "to": 905,
+   "text": "base, el ordenamiento territorial siempre actuará tarde.",
+   "speaker": "salome",
+   "plano": "S3"
+  },
+  {
+   "from": 918,
+   "to": 988,
+   "text": "Nuestra propuesta es una plataforma web que",
+   "speaker": "daniela",
+   "plano": "D1"
+  },
+  {
+   "from": 990,
+   "to": 1060,
+   "text": "usa inteligencia artificial de visión por computador,",
+   "speaker": "daniela",
+   "plano": "D1"
+  },
+  {
+   "from": 1062,
+   "to": 1132,
+   "text": "BioCLIP, para clasificar automáticamente fotos de fauna",
+   "speaker": "daniela",
+   "plano": "D1"
+  },
+  {
+   "from": 1134,
+   "to": 1204,
+   "text": "y flora y construir un catálogo vivo,",
+   "speaker": "daniela",
+   "plano": "D1"
+  },
+  {
+   "from": 1206,
+   "to": 1266,
+   "text": "actualizado y comparable en el tiempo.",
+   "speaker": "daniela",
+   "plano": "D1"
+  },
+  {
+   "from": 1279,
+   "to": 1360,
+   "text": "El usuario sube una foto, BioCLIP identifica la",
+   "speaker": "daniela",
+   "plano": "D2"
+  },
+  {
+   "from": 1362,
+   "to": 1443,
+   "text": "especie, el sistema ubica el registro en el",
+   "speaker": "daniela",
+   "plano": "D2"
+  },
+  {
+   "from": 1445,
+   "to": 1526,
+   "text": "territorio exacto y se publica en el mapa",
+   "speaker": "daniela",
+   "plano": "D2"
+  },
+  {
+   "from": 1528,
+   "to": 1578,
+   "text": "colectivo de biodiversidad de Antioquia.",
+   "speaker": "daniela",
+   "plano": "D2"
+  },
+  {
+   "from": 1588,
+   "to": 1659,
+   "text": "Con esos datos se pueden detectar a",
+   "speaker": "daniela",
+   "plano": "D3"
+  },
+  {
+   "from": 1661,
+   "to": 1732,
+   "text": "tiempo señales ecológicas clave: disminución de poblaciones,",
+   "speaker": "daniela",
+   "plano": "D3"
+  },
+  {
+   "from": 1734,
+   "to": 1784,
+   "text": "cambios migratorios y apariciones inesperadas.",
+   "speaker": "daniela",
+   "plano": "D3"
+  },
+  {
+   "from": 1794,
+   "to": 1875,
+   "text": "BioCLIP es un modelo de visión del Imageomics",
+   "speaker": "juan",
+   "plano": "J1"
+  },
+  {
+   "from": 1877,
+   "to": 1958,
+   "text": "Institute de la Universidad Estatal de Ohio, premiado",
+   "speaker": "juan",
+   "plano": "J1"
+  },
+  {
+   "from": 1960,
+   "to": 2041,
+   "text": "como Mejor Artículo Estudiantil en CVPR 2024. Se",
+   "speaker": "juan",
+   "plano": "J1"
+  },
+  {
+   "from": 2043,
+   "to": 2124,
+   "text": "entrenó con más de diez millones de imágenes",
+   "speaker": "juan",
+   "plano": "J1"
+  },
+  {
+   "from": 2126,
+   "to": 2207,
+   "text": "y 450.000 taxones, y reconoce especies con pocos",
+   "speaker": "juan",
+   "plano": "J1"
+  },
+  {
+   "from": 2209,
+   "to": 2248,
+   "text": "o ningún ejemplo previo.",
+   "speaker": "juan",
+   "plano": "J1"
+  },
+  {
+   "from": 2258,
+   "to": 2339,
+   "text": "Se probó con 56 especies de ranas de",
+   "speaker": "juan",
+   "plano": "J2"
+  },
+  {
+   "from": 2341,
+   "to": 2422,
+   "text": "Colombia, una prueba exigente: acierta a la primera",
+   "speaker": "juan",
+   "plano": "J2"
+  },
+  {
+   "from": 2424,
+   "to": 2505,
+   "text": "en el 62,9 % de las fotos y,",
+   "speaker": "juan",
+   "plano": "J2"
+  },
+  {
+   "from": 2507,
+   "to": 2588,
+   "text": "si mostramos tres candidatas, en el 86,1 %.",
+   "speaker": "juan",
+   "plano": "J2"
+  },
+  {
+   "from": 2590,
+   "to": 2671,
+   "text": "Y cuando la plataforma usa la ubicación para",
+   "speaker": "juan",
+   "plano": "J2"
+  },
+  {
+   "from": 2673,
+   "to": 2754,
+   "text": "reordenar las candidatas, el acierto sube 24,9 puntos.",
+   "speaker": "juan",
+   "plano": "J2"
+  },
+  {
+   "from": 2764,
+   "to": 2834,
+   "text": "Son resultados preliminares y solo con ranas.",
+   "speaker": "juan",
+   "plano": "J3"
+  },
+  {
+   "from": 2836,
+   "to": 2906,
+   "text": "Por eso la IA propone y una",
+   "speaker": "juan",
+   "plano": "J3"
+  },
+  {
+   "from": 2908,
+   "to": 2978,
+   "text": "persona revisa lo dudoso, el sistema puede",
+   "speaker": "juan",
+   "plano": "J3"
+  },
+  {
+   "from": 2980,
+   "to": 3050,
+   "text": "responder “no concluyente”, y las coordenadas de",
+   "speaker": "juan",
+   "plano": "J3"
+  },
+  {
+   "from": 3052,
+   "to": 3122,
+   "text": "especies amenazadas se ocultan o se generalizan.",
+   "speaker": "juan",
+   "plano": "J3"
+  },
+  {
+   "from": 3135,
+   "to": 3205,
+   "text": "Así funcionaría la plataforma. El usuario arrastra",
+   "speaker": "maria",
+   "plano": "M1"
+  },
+  {
+   "from": 3207,
+   "to": 3277,
+   "text": "una foto o la selecciona, y también",
+   "speaker": "maria",
+   "plano": "M1"
+  },
+  {
+   "from": 3279,
+   "to": 3349,
+   "text": "puede ver observaciones de la comunidad filtradas",
+   "speaker": "maria",
+   "plano": "M1"
+  },
+  {
+   "from": 3351,
+   "to": 3421,
+   "text": "por mamíferos, aves, anfibios, reptiles o flora.",
+   "speaker": "maria",
+   "plano": "M1"
+  },
+  {
+   "from": 3434,
+   "to": 3515,
+   "text": "Cada observación se ve como una ficha: la",
+   "speaker": "maria",
+   "plano": "M2"
+  },
+  {
+   "from": 3517,
+   "to": 3598,
+   "text": "foto con su autoría, la taxonomía completa, las",
+   "speaker": "maria",
+   "plano": "M2"
+  },
+  {
+   "from": 3600,
+   "to": 3681,
+   "text": "tres mejores sugerencias con su porcentaje y las",
+   "speaker": "maria",
+   "plano": "M2"
+  },
+  {
+   "from": 3683,
+   "to": 3743,
+   "text": "acciones posibles, como geolocalizar y publicar.",
+   "speaker": "maria",
+   "plano": "M2"
+  },
+  {
+   "from": 3753,
+   "to": 3823,
+   "text": "En el Tablero Territorial, los registros aparecen",
+   "speaker": "maria",
+   "plano": "M3"
+  },
+  {
+   "from": 3825,
+   "to": 3895,
+   "text": "sobre un mapa y se cruzan con",
+   "speaker": "maria",
+   "plano": "M3"
+  },
+  {
+   "from": 3897,
+   "to": 3967,
+   "text": "las zonificaciones POT y EOT, con filtros",
+   "speaker": "maria",
+   "plano": "M3"
+  },
+  {
+   "from": 3969,
+   "to": 4029,
+   "text": "por subregión y por grupo taxonómico.",
+   "speaker": "maria",
+   "plano": "M3"
+  },
+  {
+   "from": 4041,
+   "to": 4111,
+   "text": "Y en Registros de Campo, investigadores y",
+   "speaker": "maria",
+   "plano": "M4"
+  },
+  {
+   "from": 4113,
+   "to": 4183,
+   "text": "Corporaciones Autónomas Regionales validan las detecciones y",
+   "speaker": "maria",
+   "plano": "M4"
+  },
+  {
+   "from": 4185,
+   "to": 4245,
+   "text": "auditan la calidad de los datos.",
+   "speaker": "maria",
+   "plano": "M4"
+  },
+  {
+   "from": 4257,
+   "to": 4338,
+   "text": "Así, cada foto se convierte en un dato.",
+   "speaker": "maria",
+   "plano": "M5"
+  }
+ ]
+}

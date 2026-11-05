@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,333
+Nuestra propuesta es una plataforma web que
+
+2
+00:00:02,400 --> 00:00:04,733
+usa inteligencia artificial de visión por computador,
+
+3
+00:00:04,800 --> 00:00:07,133
+BioCLIP, para clasificar automáticamente fotos de fauna
+
+4
+00:00:07,200 --> 00:00:09,533
+y flora y construir un catálogo vivo,
+
+5
+00:00:09,600 --> 00:00:11,600
+actualizado y comparable en el tiempo.
+
+6
+00:00:11,667 --> 00:00:14,367
+El usuario sube una foto, BioCLIP identifica la
+
+7
+00:00:14,433 --> 00:00:17,133
+especie, el sistema ubica el registro en el
+
+8
+00:00:17,200 --> 00:00:19,900
+territorio exacto y se publica en el mapa
+
+9
+00:00:19,967 --> 00:00:21,633
+colectivo de biodiversidad de Antioquia.
+
+10
+00:00:21,700 --> 00:00:24,067
+Con esos datos se pueden detectar a
+
+11
+00:00:24,133 --> 00:00:26,500
+tiempo señales ecológicas clave: disminución de poblaciones,
+
+12
+00:00:26,567 --> 00:00:28,233
+cambios migratorios y apariciones inesperadas.
+

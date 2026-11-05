@@ -1,4 +1,6 @@
-# Guía de dirección — Video de unorootpi (máx. 3:00)
+# Guía de dirección — Video PITB Antioquia (máx. 3:00)
+
+> **v3 (5 nov, fase de producción): todo lo producido está en [`entregables/`](entregables/README.md).** Decisiones finales: nombre *PITB Antioquia*, prototipo real, DaVinci Resolve gratuito en Windows con montaje manual guiado, una sola persona edita y los 4 graban. Este documento queda como registro de la investigación (v1–v2).
 
 > Fase 1: investigación + guía de producción. La fase pesada (render, montaje, Opus) arranca cuando se aprueben las decisiones de la sección 9.
 

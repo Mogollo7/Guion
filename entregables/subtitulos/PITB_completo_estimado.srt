@@ -1,0 +1,224 @@
+1
+00:00:04,500 --> 00:00:06,833
+¿Cómo puede Antioquia planificar su territorio para
+
+2
+00:00:06,900 --> 00:00:09,233
+125 municipios si ni siquiera sabemos con
+
+3
+00:00:09,300 --> 00:00:11,300
+precisión qué especies lo habitan hoy?
+
+4
+00:00:11,700 --> 00:00:14,067
+Hablamos del departamento más biodiverso de Colombia,
+
+5
+00:00:14,133 --> 00:00:16,500
+con más de 21.600 especies registradas, pero
+
+6
+00:00:16,567 --> 00:00:18,933
+cuyo inventario depende de muestreos manuales que
+
+7
+00:00:19,000 --> 00:00:20,300
+tardan años en actualizarse.
+
+8
+00:00:20,633 --> 00:00:22,967
+Y cuando se actualiza, una especie ya
+
+9
+00:00:23,033 --> 00:00:25,367
+desapareció, una invasión ya ocurrió o un
+
+10
+00:00:25,433 --> 00:00:27,767
+patrón migratorio ya cambió. Sin una línea
+
+11
+00:00:27,833 --> 00:00:30,167
+base, el ordenamiento territorial siempre actuará tarde.
+
+12
+00:00:30,600 --> 00:00:32,933
+Nuestra propuesta es una plataforma web que
+
+13
+00:00:33,000 --> 00:00:35,333
+usa inteligencia artificial de visión por computador,
+
+14
+00:00:35,400 --> 00:00:37,733
+BioCLIP, para clasificar automáticamente fotos de fauna
+
+15
+00:00:37,800 --> 00:00:40,133
+y flora y construir un catálogo vivo,
+
+16
+00:00:40,200 --> 00:00:42,200
+actualizado y comparable en el tiempo.
+
+17
+00:00:42,633 --> 00:00:45,333
+El usuario sube una foto, BioCLIP identifica la
+
+18
+00:00:45,400 --> 00:00:48,100
+especie, el sistema ubica el registro en el
+
+19
+00:00:48,167 --> 00:00:50,867
+territorio exacto y se publica en el mapa
+
+20
+00:00:50,933 --> 00:00:52,600
+colectivo de biodiversidad de Antioquia.
+
+21
+00:00:52,933 --> 00:00:55,300
+Con esos datos se pueden detectar a
+
+22
+00:00:55,367 --> 00:00:57,733
+tiempo señales ecológicas clave: disminución de poblaciones,
+
+23
+00:00:57,800 --> 00:00:59,467
+cambios migratorios y apariciones inesperadas.
+
+24
+00:00:59,800 --> 00:01:02,500
+BioCLIP es un modelo de visión del Imageomics
+
+25
+00:01:02,567 --> 00:01:05,267
+Institute de la Universidad Estatal de Ohio, premiado
+
+26
+00:01:05,333 --> 00:01:08,033
+como Mejor Artículo Estudiantil en CVPR 2024. Se
+
+27
+00:01:08,100 --> 00:01:10,800
+entrenó con más de diez millones de imágenes
+
+28
+00:01:10,867 --> 00:01:13,567
+y 450.000 taxones, y reconoce especies con pocos
+
+29
+00:01:13,633 --> 00:01:14,933
+o ningún ejemplo previo.
+
+30
+00:01:15,267 --> 00:01:17,967
+Se probó con 56 especies de ranas de
+
+31
+00:01:18,033 --> 00:01:20,733
+Colombia, una prueba exigente: acierta a la primera
+
+32
+00:01:20,800 --> 00:01:23,500
+en el 62,9 % de las fotos y,
+
+33
+00:01:23,567 --> 00:01:26,267
+si mostramos tres candidatas, en el 86,1 %.
+
+34
+00:01:26,333 --> 00:01:29,033
+Y cuando la plataforma usa la ubicación para
+
+35
+00:01:29,100 --> 00:01:31,800
+reordenar las candidatas, el acierto sube 24,9 puntos.
+
+36
+00:01:32,133 --> 00:01:34,467
+Son resultados preliminares y solo con ranas.
+
+37
+00:01:34,533 --> 00:01:36,867
+Por eso la IA propone y una
+
+38
+00:01:36,933 --> 00:01:39,267
+persona revisa lo dudoso, el sistema puede
+
+39
+00:01:39,333 --> 00:01:41,667
+responder “no concluyente”, y las coordenadas de
+
+40
+00:01:41,733 --> 00:01:44,067
+especies amenazadas se ocultan o se generalizan.
+
+41
+00:01:44,500 --> 00:01:46,833
+Así funcionaría la plataforma. El usuario arrastra
+
+42
+00:01:46,900 --> 00:01:49,233
+una foto o la selecciona, y también
+
+43
+00:01:49,300 --> 00:01:51,633
+puede ver observaciones de la comunidad filtradas
+
+44
+00:01:51,700 --> 00:01:54,033
+por mamíferos, aves, anfibios, reptiles o flora.
+
+45
+00:01:54,467 --> 00:01:57,167
+Cada observación se ve como una ficha: la
+
+46
+00:01:57,233 --> 00:01:59,933
+foto con su autoría, la taxonomía completa, las
+
+47
+00:02:00,000 --> 00:02:02,700
+tres mejores sugerencias con su porcentaje y las
+
+48
+00:02:02,767 --> 00:02:04,767
+acciones posibles, como geolocalizar y publicar.
+
+49
+00:02:05,100 --> 00:02:07,433
+En el Tablero Territorial, los registros aparecen
+
+50
+00:02:07,500 --> 00:02:09,833
+sobre un mapa y se cruzan con
+
+51
+00:02:09,900 --> 00:02:12,233
+las zonificaciones POT y EOT, con filtros
+
+52
+00:02:12,300 --> 00:02:14,300
+por subregión y por grupo taxonómico.
+
+53
+00:02:14,700 --> 00:02:17,033
+Y en Registros de Campo, investigadores y
+
+54
+00:02:17,100 --> 00:02:19,433
+Corporaciones Autónomas Regionales validan las detecciones y
+
+55
+00:02:19,500 --> 00:02:21,500
+auditan la calidad de los datos.
+
+56
+00:02:21,900 --> 00:02:24,600
+Así, cada foto se convierte en un dato.
+

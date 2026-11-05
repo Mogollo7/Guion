@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:02,333
+Así funcionaría la plataforma. El usuario arrastra
+
+2
+00:00:02,400 --> 00:00:04,733
+una foto o la selecciona, y también
+
+3
+00:00:04,800 --> 00:00:07,133
+puede ver observaciones de la comunidad filtradas
+
+4
+00:00:07,200 --> 00:00:09,533
+por mamíferos, aves, anfibios, reptiles o flora.
+
+5
+00:00:09,600 --> 00:00:12,300
+Cada observación se ve como una ficha: la
+
+6
+00:00:12,367 --> 00:00:15,067
+foto con su autoría, la taxonomía completa, las
+
+7
+00:00:15,133 --> 00:00:17,833
+tres mejores sugerencias con su porcentaje y las
+
+8
+00:00:17,900 --> 00:00:19,900
+acciones posibles, como geolocalizar y publicar.
+
+9
+00:00:19,967 --> 00:00:22,300
+En el Tablero Territorial, los registros aparecen
+
+10
+00:00:22,367 --> 00:00:24,700
+sobre un mapa y se cruzan con
+
+11
+00:00:24,767 --> 00:00:27,100
+las zonificaciones POT y EOT, con filtros
+
+12
+00:00:27,167 --> 00:00:29,167
+por subregión y por grupo taxonómico.
+
+13
+00:00:29,233 --> 00:00:31,567
+Y en Registros de Campo, investigadores y
+
+14
+00:00:31,633 --> 00:00:33,967
+Corporaciones Autónomas Regionales validan las detecciones y
+
+15
+00:00:34,033 --> 00:00:36,033
+auditan la calidad de los datos.
+
+16
+00:00:36,100 --> 00:00:38,800
+Así, cada foto se convierte en un dato.
+

@@ -1,0 +1,6 @@
+node_modules/
+video/out/
+video/.remotion/
+*.log
+brag-output/work/
+.DS_Store

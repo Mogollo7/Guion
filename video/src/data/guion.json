@@ -1,0 +1,112 @@
+{
+ "nota": "Guion final. Correcciones de dirección: S2 21.600 (cifra del trabajo escrito); J2 aclara que el reordenamiento por ubicación lo hace la plataforma.",
+ "wordsPerSec": 2.9,
+ "speakers": {
+  "salome": {
+   "name": "Salomé Mariaca Sánchez",
+   "role": "El problema",
+   "chapter": "01"
+  },
+  "daniela": {
+   "name": "Daniela Estefanía Posada Hernández",
+   "role": "La propuesta",
+   "chapter": "02"
+  },
+  "juan": {
+   "name": "Juan Sebastián Martínez Galeano",
+   "role": "La tecnología · BioCLIP",
+   "chapter": "03"
+  },
+  "maria": {
+   "name": "Maria Estefany Serna Guerra",
+   "role": "El prototipo",
+   "chapter": "04"
+  }
+ },
+ "planos": [
+  {
+   "id": "S1",
+   "speaker": "salome",
+   "plate": "S1",
+   "text": "¿Cómo puede Antioquia planificar su territorio para 125 municipios si ni siquiera sabemos con precisión qué especies lo habitan hoy?"
+  },
+  {
+   "id": "S2",
+   "speaker": "salome",
+   "plate": "S2",
+   "text": "Hablamos del departamento más biodiverso de Colombia, con más de 21.600 especies registradas, pero cuyo inventario depende de muestreos manuales que tardan años en actualizarse."
+  },
+  {
+   "id": "S3",
+   "speaker": "salome",
+   "plate": "S3",
+   "text": "Y cuando se actualiza, una especie ya desapareció, una invasión ya ocurrió o un patrón migratorio ya cambió. Sin una línea base, el ordenamiento territorial siempre actuará tarde."
+  },
+  {
+   "id": "D1",
+   "speaker": "daniela",
+   "plate": "D1",
+   "text": "Nuestra propuesta es una plataforma web que usa inteligencia artificial de visión por computador, BioCLIP, para clasificar automáticamente fotos de fauna y flora y construir un catálogo vivo, actualizado y comparable en el tiempo."
+  },
+  {
+   "id": "D2",
+   "speaker": "daniela",
+   "plate": "D2",
+   "text": "El usuario sube una foto, BioCLIP identifica la especie, el sistema ubica el registro en el territorio exacto y se publica en el mapa colectivo de biodiversidad de Antioquia."
+  },
+  {
+   "id": "D3",
+   "speaker": "daniela",
+   "plate": "D3",
+   "text": "Con esos datos se pueden detectar a tiempo señales ecológicas clave: disminución de poblaciones, cambios migratorios y apariciones inesperadas."
+  },
+  {
+   "id": "J1",
+   "speaker": "juan",
+   "plate": "J1",
+   "text": "BioCLIP es un modelo de visión del Imageomics Institute de la Universidad Estatal de Ohio, premiado como Mejor Artículo Estudiantil en CVPR 2024. Se entrenó con más de diez millones de imágenes y 450.000 taxones, y reconoce especies con pocos o ningún ejemplo previo."
+  },
+  {
+   "id": "J2",
+   "speaker": "juan",
+   "plate": "J2",
+   "text": "Se probó con 56 especies de ranas de Colombia, una prueba exigente: acierta a la primera en el 62,9 % de las fotos y, si mostramos tres candidatas, en el 86,1 %. Y cuando la plataforma usa la ubicación para reordenar las candidatas, el acierto sube 24,9 puntos."
+  },
+  {
+   "id": "J3",
+   "speaker": "juan",
+   "plate": "J3",
+   "text": "Son resultados preliminares y solo con ranas. Por eso la IA propone y una persona revisa lo dudoso, el sistema puede responder “no concluyente”, y las coordenadas de especies amenazadas se ocultan o se generalizan."
+  },
+  {
+   "id": "M1",
+   "speaker": "maria",
+   "plate": "M1",
+   "text": "Así funcionaría la plataforma. El usuario arrastra una foto o la selecciona, y también puede ver observaciones de la comunidad filtradas por mamíferos, aves, anfibios, reptiles o flora."
+  },
+  {
+   "id": "M2",
+   "speaker": "maria",
+   "plate": "M2",
+   "text": "Cada observación se ve como una ficha: la foto con su autoría, la taxonomía completa, las tres mejores sugerencias con su porcentaje y las acciones posibles, como geolocalizar y publicar."
+  },
+  {
+   "id": "M3",
+   "speaker": "maria",
+   "plate": "M3",
+   "text": "En el Tablero Territorial, los registros aparecen sobre un mapa y se cruzan con las zonificaciones POT y EOT, con filtros por subregión y por grupo taxonómico."
+  },
+  {
+   "id": "M4",
+   "speaker": "maria",
+   "plate": "M4",
+   "text": "Y en Registros de Campo, investigadores y Corporaciones Autónomas Regionales validan las detecciones y auditan la calidad de los datos."
+  },
+  {
+   "id": "M5",
+   "speaker": "maria",
+   "plate": "M5",
+   "text": "Así, cada foto se convierte en un dato."
+  }
+ ]
+}

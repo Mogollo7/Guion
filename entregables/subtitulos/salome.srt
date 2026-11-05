@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:02,333
+¿Cómo puede Antioquia planificar su territorio para
+
+2
+00:00:02,400 --> 00:00:04,733
+125 municipios si ni siquiera sabemos con
+
+3
+00:00:04,800 --> 00:00:06,800
+precisión qué especies lo habitan hoy?
+
+4
+00:00:06,867 --> 00:00:09,233
+Hablamos del departamento más biodiverso de Colombia,
+
+5
+00:00:09,300 --> 00:00:11,667
+con más de 21.600 especies registradas, pero
+
+6
+00:00:11,733 --> 00:00:14,100
+cuyo inventario depende de muestreos manuales que
+
+7
+00:00:14,167 --> 00:00:15,467
+tardan años en actualizarse.
+
+8
+00:00:15,533 --> 00:00:17,867
+Y cuando se actualiza, una especie ya
+
+9
+00:00:17,933 --> 00:00:20,267
+desapareció, una invasión ya ocurrió o un
+
+10
+00:00:20,333 --> 00:00:22,667
+patrón migratorio ya cambió. Sin una línea
+
+11
+00:00:22,733 --> 00:00:25,067
+base, el ordenamiento territorial siempre actuará tarde.
+
