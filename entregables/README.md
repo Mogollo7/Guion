@@ -9,6 +9,7 @@ Todo lo necesario para grabar, montar en DaVinci Resolve gratuito (Windows) y pr
 4. Exportar, subir a YouTube (público o no listado) y pegar los créditos de `05_CREDITOS_Y_LICENCIAS.md`.
 5. Corregir el PDF con `07_TEXTO_ESCRITO_PENDIENTES.md` y pegar el enlace.
 6. Preparar la sesión en vivo con `06_REFLEXION_ETICA_Y_PREGUNTAS.md` y la presentación de Canva.
+7. Opcional: plantillas de Mixkit adaptadas a PITB (tercios, llamadas, logo, transiciones) con `08_MIXKIT_PITB.md`.
 
 ## Carpetas
 | Carpeta | Contenido |

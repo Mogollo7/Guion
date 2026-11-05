@@ -4,3 +4,4 @@ video/.remotion/
 *.log
 brag-output/work/
 .DS_Store
+mixkit_pitb/

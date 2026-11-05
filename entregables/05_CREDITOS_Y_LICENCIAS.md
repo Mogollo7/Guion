@@ -5,6 +5,7 @@
 |---|---|---|---|
 | Música "Happy Beats / Business Moves Vol. 1" | Sascha Ende · ende.app (incluida en `latent-spaces/brag`) | **CC BY 4.0** (exige atribución) | Todo el video y teaser |
 | Efectos de interfaz (clics, pops, cartas, teclado, transiciones) | Kenney.nl (incluidos en `latent-spaces/brag`) | CC0 | Láminas M1–M4, App Promo y teaser |
+| Plantillas de DaVinci (tercios, llamadas, logo, transiciones), si se usan | Mixkit (mixkit.co), adaptadas con `video/scripts/mixkit_pitb.py` | Licencia gratuita de Mixkit para video templates (no se redistribuyen en el repo) | Opcional en el montaje |
 | Mascota **Tremi** (oso de anteojos) | Creación original del equipo para PITB Antioquia (vector en `video/src/promo/Mascot.tsx`) | Del proyecto | Intro, App Promo, láminas del prototipo |
 | Límites municipales de Antioquia | DANE · Marco Geoestadístico Nacional 2018 (vía `caticoa3/colombia_mapa`) | Datos públicos DANE | S1, D2, D3, J3, M3, teaser |
 | Mapa base del tablero | © colaboradores de OpenStreetMap (captura del prototipo) | ODbL | M3, teaser |
