@@ -9,7 +9,7 @@ Las plantillas no se suben al repositorio público: no pude leer el texto exacto
 1. **Ya adaptado:** usa `Mixkit_PITB_pack.zip`, que te mandé por el chat. Descomprímelo en `C:\PITB\mixkit` y **copia la carpeta `entregables/logo` a `C:\PITB\logo`**. Los títulos de logo buscan el PNG en esa ruta.
 2. **Generarlo tú** (descarga directo de Mixkit y adapta). Necesita Python 3:
    ```
-   python video\scripts\mixkit_pitb.py --out C:\PITB\mixkit
+   python skills\tema-personalizado\grupo34-pitb-antioquia\mixkit_pitb.py --out C:\PITB\mixkit
    ```
    Así el logo queda enlazado a `entregables\logo` del repositorio, sin copiar nada.
 
@@ -54,4 +54,4 @@ Instala **Fraunces** y **Manrope** desde Google Fonts (fonts.google.com › Frau
 - **Cierre:** `Marca_PITB_Foto_Especie_Dato` o un `Logo_*`.
 
 ## Créditos
-Plantillas: Mixkit (mixkit.co), licencia gratuita para video templates. No hace falta atribución, pero se puede poner "Plantillas: Mixkit" en los créditos de YouTube. Adaptación a PITB: `video/scripts/mixkit_pitb.py`.
+Plantillas: Mixkit (mixkit.co), licencia gratuita para video templates. No hace falta atribución, pero se puede poner "Plantillas: Mixkit" en los créditos de YouTube. Adaptación a PITB: `skills/tema-personalizado/grupo34-pitb-antioquia/mixkit_pitb.py`.

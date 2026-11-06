@@ -19,7 +19,7 @@ import urllib.request
 import zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, '..', '..'))
+REPO = os.path.abspath(os.path.join(HERE, '..', '..', '..'))  # raíz del repo Guion
 
 LEAF = (0.4235, 0.6824, 0.2980)   # #6cae4c
 OLIVE = (0.6471, 0.7373, 0.3569)  # #a5bc5b

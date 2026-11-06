@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: phone-footage-and-alpha
+expected_outcome: |
+  Explains variable frame rate as the cause and gives a concrete conversion to constant frame rate (ffmpeg command or HandBrake settings), mentions HEVC compatibility, recommends exporting the mascot as a PNG sequence or ProRes 4444 with alpha and how to place it on a track above, and how to fix the alpha mode if edges look wrong.

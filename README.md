@@ -5,6 +5,7 @@ Producción del video (≤ 3 min) del reto **Territorio Sostenible · Agenda Ant
 - [`entregables/`](entregables/README.md): **empieza aquí**. Guion final, guías de grabación y montaje en DaVinci Resolve, láminas animadas, gráficos, subtítulos, logo, créditos y preparación de la sesión en vivo.
 - [`entregables/promo/`](entregables/promo/README.md): **App Promo** (~49 s) estilo UI Motion Graphics, con mockups del prototipo, la mascota Tremi y tipografía cinética.
 - [`brag-output/`](brag-output/): teaser de 20 s para redes (método `/brag`).
+- [`skills/`](skills/README.md): **skills para hacer videos con agentes**, en dos suites (código con Remotion / apps ArtCraft por MCP) más el tema personalizado del grupo 34 y una plantilla para otros grupos.
 - [`video/`](video/): proyecto Remotion con el código de todas las animaciones y los scripts de captura y render.
 - [`GUIA_VIDEO_UNOROOTPI.md`](GUIA_VIDEO_UNOROOTPI.md): guía de dirección inicial (investigación y decisiones).
 

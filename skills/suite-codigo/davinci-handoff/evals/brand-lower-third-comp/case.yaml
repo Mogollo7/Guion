@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: brand-lower-third-comp
+expected_outcome: |
+  Writes ana_lower_third.comp with the name and role texts, Manrope as the font and the bar colour set to #6cae4c (RGB about 0.42, 0.68, 0.30), leaving the rest of the composition intact, and explains how to add it in the free version (Fusion Composition clip + Import Fusion Composition, installing the font).
+context:
+  scaffold_script: place-files.sh

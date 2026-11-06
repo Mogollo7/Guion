@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: over-limit-script
+expected_outcome: |
+  Computes the duration from the word count, states that it exceeds 60 s, and proposes concrete cuts (which lines or words) and/or a faster rate so it fits, with the resulting duration.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,13 @@
+LAURA
+Cada año perdemos especies que nunca alcanzamos a registrar. En Antioquia hay más de veinte mil, pero la mayoría de los inventarios se hacen a mano y tardan años en actualizarse.
+Cuando por fin llegan los datos, el bosque ya cambió y las decisiones sobre el territorio llegan tarde.
+
+ANDRÉS
+Por eso creamos una aplicación web en la que cualquier persona sube una foto de un animal o una planta.
+Un modelo de inteligencia artificial sugiere la especie, la ubica en el mapa y la deja lista para que un experto la revise.
+Así cada foto se suma a un catálogo vivo que se puede comparar mes a mes.
+
+CAMILA
+En el prototipo, la ficha de cada observación muestra la foto con su autor, la taxonomía y las tres especies más probables.
+Las alcaldías pueden ver los registros sobre las zonas de su plan de ordenamiento y detectar conflictos a tiempo.
+Nuestra meta es simple: que cada foto se convierta en un dato que proteja el territorio.

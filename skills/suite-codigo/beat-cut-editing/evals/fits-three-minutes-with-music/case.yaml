@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: fits-three-minutes-with-music
+expected_outcome: |
+  Reports the music tempo (about 120 BPM), the total duration at a lively rate and the worst case at a calm rate, confirms it fits in 3 minutes, and writes an edit map, a timeline, markers and one SRT per speaker with cut points on the music's beat grid.
+context:
+  scaffold_script: place-files.sh

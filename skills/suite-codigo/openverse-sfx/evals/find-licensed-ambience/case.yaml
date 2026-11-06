@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: find-licensed-ambience
+expected_outcome: |
+  Lists several candidate recordings from Openverse with title, author, duration, licence and link, explains which licences allow use on YouTube and which require attribution, and gives ready-to-paste credit lines; if downloads are blocked it says so instead of pretending to have the files.

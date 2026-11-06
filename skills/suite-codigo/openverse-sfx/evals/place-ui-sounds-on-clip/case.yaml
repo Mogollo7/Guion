@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: place-ui-sounds-on-clip
+expected_outcome: |
+  Produces a mixed MP4 with audio, a separate SFX WAV stem and a credits file with licences; places a click/tap slightly before 1.0 s, a pop at 2.5 s and a ding/chime at 4.0 s; explains what was measured and does not claim to have listened.
+context:
+  scaffold_script: place-files.sh
